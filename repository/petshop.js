@@ -2,7 +2,7 @@ import ModelPetshop from '../model/petshop.js'
 
 class RepositoryPetShop{
 
-async Buscar(){
+async Find(){
     const buscartodos = await ModelPetshop.findAll()
 
     return buscartodos

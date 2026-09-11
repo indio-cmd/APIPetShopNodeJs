@@ -1,0 +1,26 @@
+{
+  "name": "apipetshopnodejs",
+  "version": "1.0.0",
+  "description": "Atividade do renan",
+  "homepage": "https://github.com/indio-cmd/APIPetShopNodeJs#readme",
+  "bugs": {
+    "url": "https://github.com/indio-cmd/APIPetShopNodeJs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indio-cmd/APIPetShopNodeJs.git"
+  },
+  "license": "ISC",
+  "author": "kaua",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.24.4",
+    "sequelize": "^6.37.8"
+  }
+}
